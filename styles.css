@@ -1,15 +1,16 @@
 #head1 {
-	background-color: #3f3047;
-	color: #ffffff;
+	color: #9BC995;
 	padding: 20px;
 	text-align: center;
 	font-family: "Open Sans", sans-serif;
 	font-size: 50px;
 	width: 100%;
+	margin-top: 170px; /* Adjust margin-top to move the header down */
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 #meal-type {
-	background-color: #3f3047;
+	background-color: #9bc995;
 	color: #ffffff;
 	padding: 20px;
 	margin: 15px 600px 15px 600px;
@@ -27,7 +28,7 @@
 }
 
 body {
-	background-image: url("https://www.ukri.org/wp-content/uploads/2023/12/IUK-051223-VariedProteinFoodsTable-GettyImages-1226542479.jpg");
+	background-image: url("https://images.unsplash.com/photo-1505935428862-770b6f24f629?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 	background-size: cover;
 	background-position: center;
 }
@@ -44,8 +45,8 @@ button {
 	border-radius: 20%;
 	padding: 10px 20px;
 	text-align: center;
-	background-color: #3f3047;
-	color: #fff;
+	background-color: #9bc995;
+	color: #ffffff;
 	font-family: Helvetica;
 	display: inline-block;
 	font-size: 20px;
@@ -55,7 +56,7 @@ button {
 }
 
 button:hover {
-	background-color: #554162; /* Change color on hover */
+	background-color: #3f3047; /* Change color on hover */
 }
 /* POPUP FORMAT */
 .modal {
